@@ -9,9 +9,10 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "e:/Hin Prijects/Visual Studio/VS Code/Cprog",
+      "cwd": "${workspaceRoot}",
       "environment": [],
-      "program": "e:/Hin Prijects/Visual Studio/VS Code/Cprog/build/Debug/outDebug",
+      //"program": "e:/Hin Prijects/Visual Studio/VS Code/Cprog/build/Debug/outDebug",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",

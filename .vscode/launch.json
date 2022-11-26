@@ -5,16 +5,15 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": [
-        ""
-      ],
+      "args": [],
       "stopAtEntry": false,
-      "cwd": "e:/Workspace/STM32CubeIDE/VS Code",
+      "cwd": "${workspaceRoot}",
       "environment": [],
-      "program": "e:/Workspace/STM32CubeIDE/VS Code/build/Debug/outDebug",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      //"program": "${workspaceRoot}/${fileBasename}.exe",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
       "externalConsole": false,
       "setupCommands": [
         {
