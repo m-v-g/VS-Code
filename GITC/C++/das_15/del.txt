@@ -1,0 +1,61 @@
+Node* delNode(Node* temp, int val) //TODO rekursivnaya funkciya kopirovaniya
+            {
+                if(!temp) //ete datark e
+                {
+                    return temp;
+                    cout << "111111111111111" << endl;
+                }
+                if(val == temp->value) //ete gtel enq
+                {
+                    Node* tmp;
+                    if(!temp->right) //ete chuni aj terev
+                    {
+                        cout << "222222222222222" << endl;
+                        tmp = temp->left;
+                    }
+                    else //ete uni aj terev
+                    {
+                        Node* ptr = temp->left; //jamanakavor popoxaan sarqenq u iran veragrenq aj terevi hascen
+                        if(!ptr->left) //ete ed aj@ dzax chuni
+                        {
+                            ptr->left = temp->left;
+				            tmp = ptr;
+                            cout << "3333333333333333" << endl;
+                        }
+                        else //ete vseotaki uni
+                        {
+                            
+                            Node* pmin = ptr->left;
+                            while(pmin->left)
+                            {
+                                cout << "444444444444444444" << endl;
+                                ptr  = pmin;
+                                pmin = ptr->left;
+                            }
+                            ptr->left   = pmin->right;
+                            pmin->left  = temp->left;
+                            pmin->right = temp->right;
+                            tmp = pmin;
+                            
+                        }
+                    }
+                    cout << "55555555555555" << endl;
+                    delete tmp;
+                    -- leavesAmount;
+		            return tmp;
+                }
+                
+		        else if(val < temp->value) //ete poqr e
+                {
+                    cout << "66666666666666666666" << endl;
+                    temp->left = delNode(temp->left, val); //erdanq dzax
+                }
+
+                else //ete mec e
+                {
+                    cout << "77777777777777777777" << endl;
+                    temp->left = delNode(temp->left, val); //erdanq aj
+                }
+
+                return temp;
+            }        
