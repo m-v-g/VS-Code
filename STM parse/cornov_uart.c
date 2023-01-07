@@ -16,7 +16,7 @@ bool b = false;
 
 int main()
 {
-    
+    printf("asd\n");
     /*
     int asd;
     printf("hello world");
@@ -24,7 +24,7 @@ int main()
     printf("asd = %d", asd);
     */
     printMessage:
-
+	
 	    printWelcomeMessage();
 
 	while (1)  {
@@ -77,6 +77,7 @@ uint8_t processUserInput(uint8_t opt) {
 	case 2:
 		//sprintf(msg, "\r\nUSER BUTTON status: %s", HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET ? "PRESSED" : "RELEASED");
 		//HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+		printf("USER BUTTON");
 		break;
 	case 3:
 		return 2;
