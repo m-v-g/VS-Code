@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main(void)
 {
-    printf("Tip int imeet razmer %zd baytov.\n", sizeof(int));
-    printf("Tip char imeet razmer %zd baytov.\n", sizeof(char));
-    printf("Tip long imeet razmer %zd baytov.\n", sizeof(long));
-    printf("Tip long long imeet razmer %zd baytov.\n", sizeof(long long));
-    printf("Tip float imeet razmer %zd baytov.\n", sizeof(float));
-    printf("Tip double imeet razmer %zd baytov.\n", sizeof(double));
-    printf("Tip long long imeet razmer %zd baytov.\n", sizeof(long long));
-    printf("Tip long double imeet razmer %zd baytov.\n", sizeof(long double));
+    printf("Тип int имеет размер %zd байт(ов).\n", sizeof(int));
+    printf("Тип char имеет размер %zd байт(ов).\n", sizeof(char));
+    printf("Тип long имеет размер %zd байт(ов).\n", sizeof(long));
+    printf("Тип long long имеет размер %zd байт(ов).\n", sizeof(long long));
+    printf("Тип float имеет размер %zd байт(ов).\n", sizeof(float));
+    printf("Тип double имеет размер %zd байт(ов).\n", sizeof(double));
+    printf("Тип long long имеет размер %zd байт(ов).\n", sizeof(long long));
+    printf("Тип long double имеет размер %zd байт(ов).\n", sizeof(long double));
 
     return 0;
 }
