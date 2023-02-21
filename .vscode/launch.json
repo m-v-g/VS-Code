@@ -7,14 +7,11 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "${workspaceRoot}",
-      "environment": [],
-      "program": "${fileDirname}/${fileBasenameNoExtension}",
-      //"program": "${workspaceRoot}/${fileBasename}.exe",
-      "internalConsoleOptions": "openOnSessionStart",
+      "externalConsole": true,
+      "cwd": "d:/Workspace/VS-Code",
+      "program": "d:/Workspace/VS-Code/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
-      "externalConsole": false,
+      "miDebuggerPath": "gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
