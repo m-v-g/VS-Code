@@ -1,19 +1,20 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.0", //указывает версию файла настроек
   "configurations": [
+     //содержит список конфигураций, где каждый объект представляет одну конфигурацию
     {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
+      "name": "C/C++ Runner: Debug Session", // задает название конфигурации отладки
+      "type": "cppdbg", //тип целевого средства отладки
+      "request": "launch", //запрос к VSCode о запуске отладки
       "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "d:/Workspace/VS-Code",
-      "program": "d:/Workspace/VS-Code/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
+      "stopAtEntry": false, //определяет прекращение выполнения кода на первой строчке или нет. False означает, что выполнение продолжается
+      "externalConsole": true, // использует внешнюю консоль для вывода значений переменных, сообщений об ошибках и т.д
+      "cwd": "d:/Workspace/VS-Code", //директория, где хранится ваш проект
+      "program": "d:/Workspace/VS-Code/build/Debug/outDebug", //путь к исполняемому файлу вашего приложения
+      "MIMode": "gdb", //режим работы отладчика
+      "miDebuggerPath": "gdb", //путь к исполняемому файлу GDB (GNU Debugger)
+      "setupCommands": [ //команды, которые выполнятся перед началом отладки
+        { //В данном случае выполняется команда "-enable-pretty-printing", которая улучшает вывод значений сложных структур данных в gdb.
           "description": "Enable pretty-printing for gdb",
           "text": "-enable-pretty-printing",
           "ignoreFailures": true
@@ -22,3 +23,29 @@
     }
   ]
 }
+/*
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg", //тип отладчика
+            "request": "launch", //запрос запуска отладчика
+            "program": "${workspaceFolder}/main.out", //путь к исполняемому файлу программы
+            "args": [], //массив параметров запуска программы
+            "stopAtEntry": false, //флаг, указывающий остановку кода на точке входа
+            "cwd": "${workspaceFolder}", //текущая рабочая директория
+            "environment": [],
+            "externalConsole": true, //использовать стороннюю консоль
+            "MIMode": "gdb", //тип отладчика
+            "setupCommands": [ //список команд для настройки отладки
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
+*/
