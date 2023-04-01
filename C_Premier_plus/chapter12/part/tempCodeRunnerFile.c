@@ -1,0 +1,1 @@
+void accumulate(int k);
