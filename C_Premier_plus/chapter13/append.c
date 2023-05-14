@@ -6,7 +6,7 @@
 #define SLEN 81
 
 void append(FILE *source, FILE *dest);
-char *s_gets(char *st, int n);
+char *s_gets(char * st, int n);
 
 int main(void)
 {
@@ -70,4 +70,37 @@ int main(void)
     puts("Отображение завершено.");
     fclose(fa);
     return 0;
+}
+
+void append(FILE *source, FILE *dest)
+{
+    size_t bytes;
+    static char temp[BUFSIZE]; //виделить память один раз
+    while ((bytes = fread(temp, sizeof(char), BUFSIZE, source)) > 0)
+    {
+        fwrite(temp, sizeof(char), bytes, dest);
+    }
+}
+
+char *s_gets(char * st, int n)
+{
+    char * ret_val;
+    char * find;
+    ret_val = fgets(st, n, stdin);
+    if (ret_val)
+    {
+        find = strchr(st, '\n'); //поиск символа новой строки
+        if (find)                //если адрес не является NULL
+        {
+            *find = '\0';        //поместить туда нулевой символ
+        }
+        else
+        {
+            while (getchar() != '\n')
+            {
+                continue;
+            }
+        }
+    }
+    return ret_val;
 }
