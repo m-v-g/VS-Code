@@ -6,16 +6,16 @@ char * s_gets(char * st, int n);
 #define MAXTITL 40
 #define MAXAUTL 40
 #define MAXBKS 100 //максимальное количество книг
-struct book
+typedef struct book
 {
     char title[MAXTITL];
     char author[MAXAUTL];
     float value;
-};
+}BOOK; //BOOK = struct book
 
 int main(void)
 {
-    struct book library[MAXBKS]; //масив структур типа book
+    BOOK library[MAXBKS]; //масив структур типа book
     int count = 0;
     int index, filecount;
     FILE * pbooks;
