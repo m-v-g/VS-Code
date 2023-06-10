@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MYTYPE(X) __Generic((X),\
+#define MYTYPE(X) _Generic((X),\
     int: "int",\
     float: "float",\
     double: "double",\
