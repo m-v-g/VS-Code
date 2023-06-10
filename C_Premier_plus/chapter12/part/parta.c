@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void report_count();
-void accumulate(int k);
+
 int count = 0; //область видимости в пределах файла, внешнее связывание
 int main(void)
 {
