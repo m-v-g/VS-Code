@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*обобшенный выбор с определением макроса*/
 #define MYTYPE(X) _Generic((X),\
     int: "int",\
     float: "float",\
