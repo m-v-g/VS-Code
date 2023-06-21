@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s 			page 1
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBWtUaa.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s 			page 1
   30:Core/Src/stm32f1xx_hal_msp.c **** /* USER CODE END TD */
   31:Core/Src/stm32f1xx_hal_msp.c **** 
   32:Core/Src/stm32f1xx_hal_msp.c **** /* Private define ------------------------------------------------------------*/
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s 			page 2
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBWtUaa.s 			page 2
 
 
   33:Core/Src/stm32f1xx_hal_msp.c **** /* USER CODE BEGIN Define */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s 			page 1
   44 000e 02F00102 		and	r2, r2, #1
   45 0012 0092     		str	r2, [sp]
   46              		.loc 1 69 3 view .LVU5
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s 			page 3
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBWtUaa.s 			page 3
 
 
   47 0014 009A     		ldr	r2, [sp]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s 			page 1
   89 003c 00100240 		.word	1073876992
   90 0040 00000140 		.word	1073807360
   91              		.cfi_endproc
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s 			page 4
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBWtUaa.s 			page 4
 
 
   92              	.LFE65:
@@ -187,13 +187,13 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s 			page 1
   96              		.file 2 "c:\\users\\vasil\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
   97              		.file 3 "c:\\users\\vasil\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
   98              		.file 4 "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Device/ST/STM32F
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s 			page 5
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBWtUaa.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f1xx_hal_msp.c
-C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s:18     .text.HAL_MspInit:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s:24     .text.HAL_MspInit:0000000000000000 HAL_MspInit
-C:\Users\vasil\AppData\Local\Temp\ccHwwDBl.s:89     .text.HAL_MspInit:000000000000003c $d
+C:\Users\vasil\AppData\Local\Temp\ccBWtUaa.s:18     .text.HAL_MspInit:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBWtUaa.s:24     .text.HAL_MspInit:0000000000000000 HAL_MspInit
+C:\Users\vasil\AppData\Local\Temp\ccBWtUaa.s:89     .text.HAL_MspInit:000000000000003c $d
 
 NO UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
   30:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** 
   31:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   @endverbatim
   32:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   ******************************************************************************
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 2
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 2
 
 
   33:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
   87:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** 
   88:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** /** @defgroup HAL_Exported_Functions HAL Exported Functions
   89:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   * @{
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 3
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 3
 
 
   90:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  144:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   /* Configure Flash prefetch */
  145:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** #if (PREFETCH_ENABLE != 0)
  146:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** #if defined(STM32F101x6) || defined(STM32F101xB) || defined(STM32F101xE) || defined(STM32F101xG) ||
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 4
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 4
 
 
  147:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****     defined(STM32F102x6) || defined(STM32F102xB) || \
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  201:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** {
   27              		.loc 1 201 1 view -0
   28              		.cfi_startproc
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 5
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 5
 
 
   29              		@ args = 0, pretend = 0, frame = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
   71              		.cfi_offset 4, -8
   72              		.cfi_offset 14, -4
  178:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   __HAL_RCC_APB1_RELEASE_RESET();
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 6
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 6
 
 
   73              		.loc 1 178 3 view .LVU5
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  232:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   * @retval HAL status
  233:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   */
  234:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** __weak HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 7
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 7
 
 
  235:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** {
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  145 002a 4FF0FF30 		mov	r0, #-1
  146 002e FFF7FEFF 		bl	HAL_NVIC_SetPriority
  147              	.LVL4:
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 8
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 8
 
 
  246:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   }
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  194 000a 1360     		str	r3, [r2]
  157:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** 
  195              		.loc 1 157 3 view .LVU32
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 9
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 9
 
 
  196 000c 0320     		movs	r0, #3
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  278:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****       (+) Enable/Disable Debug module during STANDBY mode
  279:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** 
  280:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** @endverbatim
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 10
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 10
 
 
  281:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   * @{
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  305:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** {
  258              		.loc 1 305 1 is_stmt 1 view -0
  259              		.cfi_startproc
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 11
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 11
 
 
  260              		@ args = 0, pretend = 0, frame = 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  306              		.thumb
  307              		.thumb_func
  309              	HAL_SetTickFreq:
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 12
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 12
 
 
  310              	.LVL9:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  344:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****     }
  345:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   }
  346:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** 
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 13
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 13
 
 
  347:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   return status;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  350:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** /**
  351:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   * @brief Return tick frequency.
  352:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   * @retval Tick frequency.
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 14
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 14
 
 
  353:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *         Value of @ref HAL_TickFreqTypeDef.
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  415              		.cfi_offset 5, -8
  416              		.cfi_offset 14, -4
  417 0002 0446     		mov	r4, r0
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 15
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 15
 
 
  373:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   uint32_t tickstart = HAL_GetTick();
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  455 0024 00000000 		.word	.LANCHOR0
  456              		.cfi_endproc
  457              	.LFE75:
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 16
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 16
 
 
  459              		.section	.text.HAL_SuspendTick,"ax",%progbits
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  410:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *       implementations in user file.
  411:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   * @retval None
  412:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   */
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 17
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 17
 
 
  413:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** __weak void HAL_ResumeTick(void)
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  535              		.syntax unified
  536              		.thumb
  537              		.thumb_func
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 18
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 18
 
 
  539              	HAL_GetREVID:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  453:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   * @retval Device identifier
  454:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   */
  455:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** uint32_t HAL_GetDEVID(void)
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 19
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 19
 
 
  456:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c **** {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  614              		.section	.text.HAL_GetUIDw1,"ax",%progbits
  615              		.align	1
  616              		.global	HAL_GetUIDw1
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 20
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 20
 
 
  617              		.syntax unified
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  656 0000 014B     		ldr	r3, .L62
  657 0002 D3F8F007 		ldr	r0, [r3, #2032]
  658 0006 7047     		bx	lr
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 21
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 21
 
 
  659              	.L63:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  500:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *                  STM32F101xF/G and STM32F103xF/G
  501:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *                  STM32F10xx4 and STM32F10xx6
  502:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *       Debug registers DBGMCU_IDCODE and DBGMCU_CR are accessible only in
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 22
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 22
 
 
  503:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *       debug mode (not accessible by the user software in normal mode).
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  531:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *       the system from Stop mode.
  532:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *       Workaround: To debug the Stop mode, disable the system tick timer
  533:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *       interrupt.
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 23
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 23
 
 
  534:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal.c ****   *       Refer to errata sheet of these devices for more details.
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  765 0000 024A     		ldr	r2, .L74
  766 0002 5368     		ldr	r3, [r2, #4]
  767 0004 23F00203 		bic	r3, r3, #2
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 24
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 24
 
 
  768 0008 5360     		str	r3, [r2, #4]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  808              		.global	HAL_DBGMCU_DisableDBGStandbyMode
  809              		.syntax unified
  810              		.thumb
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 25
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 25
 
 
  811              		.thumb_func
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  857              		.text
  858              	.Letext0:
  859              		.file 2 "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Device/ST/STM32F
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 26
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 26
 
 
  860              		.file 3 "c:\\users\\vasil\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
@@ -1508,90 +1508,90 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 1
  864              		.file 7 "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/I
  865              		.file 8 "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Device/ST/STM32F
  866              		.file 9 "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/I
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 27
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 27
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f1xx_hal.c
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:18     .text.HAL_MspInit:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:24     .text.HAL_MspInit:0000000000000000 HAL_MspInit
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:38     .text.HAL_MspDeInit:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:44     .text.HAL_MspDeInit:0000000000000000 HAL_MspDeInit
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:57     .text.HAL_DeInit:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:63     .text.HAL_DeInit:0000000000000000 HAL_DeInit
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:94     .text.HAL_DeInit:000000000000001c $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:99     .text.HAL_InitTick:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:105    .text.HAL_InitTick:0000000000000000 HAL_InitTick
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:167    .text.HAL_InitTick:0000000000000040 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:174    .text.HAL_Init:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:180    .text.HAL_Init:0000000000000000 HAL_Init
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:213    .text.HAL_Init:0000000000000020 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:218    .text.HAL_IncTick:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:224    .text.HAL_IncTick:0000000000000000 HAL_IncTick
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:244    .text.HAL_IncTick:0000000000000010 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:250    .text.HAL_GetTick:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:256    .text.HAL_GetTick:0000000000000000 HAL_GetTick
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:272    .text.HAL_GetTick:0000000000000008 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:277    .text.HAL_GetTickPrio:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:283    .text.HAL_GetTickPrio:0000000000000000 HAL_GetTickPrio
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:298    .text.HAL_GetTickPrio:0000000000000008 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:303    .text.HAL_SetTickFreq:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:309    .text.HAL_SetTickFreq:0000000000000000 HAL_SetTickFreq
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:365    .text.HAL_SetTickFreq:0000000000000024 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:371    .text.HAL_GetTickFreq:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:377    .text.HAL_GetTickFreq:0000000000000000 HAL_GetTickFreq
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:392    .text.HAL_GetTickFreq:0000000000000008 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:397    .text.HAL_Delay:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:403    .text.HAL_Delay:0000000000000000 HAL_Delay
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:455    .text.HAL_Delay:0000000000000024 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:460    .text.HAL_SuspendTick:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:466    .text.HAL_SuspendTick:0000000000000000 HAL_SuspendTick
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:484    .text.HAL_ResumeTick:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:490    .text.HAL_ResumeTick:0000000000000000 HAL_ResumeTick
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:508    .text.HAL_GetHalVersion:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:514    .text.HAL_GetHalVersion:0000000000000000 HAL_GetHalVersion
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:528    .text.HAL_GetHalVersion:0000000000000004 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:533    .text.HAL_GetREVID:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:539    .text.HAL_GetREVID:0000000000000000 HAL_GetREVID
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:556    .text.HAL_GetREVID:0000000000000008 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:561    .text.HAL_GetDEVID:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:567    .text.HAL_GetDEVID:0000000000000000 HAL_GetDEVID
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:584    .text.HAL_GetDEVID:000000000000000c $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:589    .text.HAL_GetUIDw0:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:595    .text.HAL_GetUIDw0:0000000000000000 HAL_GetUIDw0
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:610    .text.HAL_GetUIDw0:0000000000000008 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:615    .text.HAL_GetUIDw1:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:621    .text.HAL_GetUIDw1:0000000000000000 HAL_GetUIDw1
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:636    .text.HAL_GetUIDw1:0000000000000008 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:641    .text.HAL_GetUIDw2:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:647    .text.HAL_GetUIDw2:0000000000000000 HAL_GetUIDw2
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:662    .text.HAL_GetUIDw2:0000000000000008 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:667    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:673    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 HAL_DBGMCU_EnableDBGSleepMode
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s 			page 28
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:18     .text.HAL_MspInit:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:24     .text.HAL_MspInit:0000000000000000 HAL_MspInit
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:38     .text.HAL_MspDeInit:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:44     .text.HAL_MspDeInit:0000000000000000 HAL_MspDeInit
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:57     .text.HAL_DeInit:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:63     .text.HAL_DeInit:0000000000000000 HAL_DeInit
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:94     .text.HAL_DeInit:000000000000001c $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:99     .text.HAL_InitTick:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:105    .text.HAL_InitTick:0000000000000000 HAL_InitTick
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:167    .text.HAL_InitTick:0000000000000040 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:174    .text.HAL_Init:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:180    .text.HAL_Init:0000000000000000 HAL_Init
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:213    .text.HAL_Init:0000000000000020 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:218    .text.HAL_IncTick:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:224    .text.HAL_IncTick:0000000000000000 HAL_IncTick
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:244    .text.HAL_IncTick:0000000000000010 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:250    .text.HAL_GetTick:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:256    .text.HAL_GetTick:0000000000000000 HAL_GetTick
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:272    .text.HAL_GetTick:0000000000000008 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:277    .text.HAL_GetTickPrio:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:283    .text.HAL_GetTickPrio:0000000000000000 HAL_GetTickPrio
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:298    .text.HAL_GetTickPrio:0000000000000008 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:303    .text.HAL_SetTickFreq:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:309    .text.HAL_SetTickFreq:0000000000000000 HAL_SetTickFreq
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:365    .text.HAL_SetTickFreq:0000000000000024 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:371    .text.HAL_GetTickFreq:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:377    .text.HAL_GetTickFreq:0000000000000000 HAL_GetTickFreq
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:392    .text.HAL_GetTickFreq:0000000000000008 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:397    .text.HAL_Delay:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:403    .text.HAL_Delay:0000000000000000 HAL_Delay
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:455    .text.HAL_Delay:0000000000000024 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:460    .text.HAL_SuspendTick:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:466    .text.HAL_SuspendTick:0000000000000000 HAL_SuspendTick
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:484    .text.HAL_ResumeTick:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:490    .text.HAL_ResumeTick:0000000000000000 HAL_ResumeTick
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:508    .text.HAL_GetHalVersion:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:514    .text.HAL_GetHalVersion:0000000000000000 HAL_GetHalVersion
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:528    .text.HAL_GetHalVersion:0000000000000004 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:533    .text.HAL_GetREVID:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:539    .text.HAL_GetREVID:0000000000000000 HAL_GetREVID
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:556    .text.HAL_GetREVID:0000000000000008 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:561    .text.HAL_GetDEVID:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:567    .text.HAL_GetDEVID:0000000000000000 HAL_GetDEVID
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:584    .text.HAL_GetDEVID:000000000000000c $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:589    .text.HAL_GetUIDw0:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:595    .text.HAL_GetUIDw0:0000000000000000 HAL_GetUIDw0
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:610    .text.HAL_GetUIDw0:0000000000000008 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:615    .text.HAL_GetUIDw1:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:621    .text.HAL_GetUIDw1:0000000000000000 HAL_GetUIDw1
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:636    .text.HAL_GetUIDw1:0000000000000008 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:641    .text.HAL_GetUIDw2:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:647    .text.HAL_GetUIDw2:0000000000000000 HAL_GetUIDw2
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:662    .text.HAL_GetUIDw2:0000000000000008 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:667    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:673    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 HAL_DBGMCU_EnableDBGSleepMode
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s 			page 28
 
 
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:690    .text.HAL_DBGMCU_EnableDBGSleepMode:000000000000000c $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:695    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:701    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 HAL_DBGMCU_DisableDBGSleepMode
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:718    .text.HAL_DBGMCU_DisableDBGSleepMode:000000000000000c $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:723    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:729    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 HAL_DBGMCU_EnableDBGStopMode
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:746    .text.HAL_DBGMCU_EnableDBGStopMode:000000000000000c $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:751    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:757    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 HAL_DBGMCU_DisableDBGStopMode
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:774    .text.HAL_DBGMCU_DisableDBGStopMode:000000000000000c $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:779    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:785    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 HAL_DBGMCU_EnableDBGStandbyMode
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:802    .text.HAL_DBGMCU_EnableDBGStandbyMode:000000000000000c $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:807    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:813    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 HAL_DBGMCU_DisableDBGStandbyMode
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:830    .text.HAL_DBGMCU_DisableDBGStandbyMode:000000000000000c $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:848    .data.uwTickFreq:0000000000000000 uwTickFreq
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:855    .data.uwTickPrio:0000000000000000 uwTickPrio
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:842    .bss.uwTick:0000000000000000 uwTick
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:838    .bss.uwTick:0000000000000000 $d
-C:\Users\vasil\AppData\Local\Temp\cc5pyYBG.s:851    .data.uwTickPrio:0000000000000000 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:690    .text.HAL_DBGMCU_EnableDBGSleepMode:000000000000000c $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:695    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:701    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 HAL_DBGMCU_DisableDBGSleepMode
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:718    .text.HAL_DBGMCU_DisableDBGSleepMode:000000000000000c $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:723    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:729    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 HAL_DBGMCU_EnableDBGStopMode
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:746    .text.HAL_DBGMCU_EnableDBGStopMode:000000000000000c $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:751    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:757    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 HAL_DBGMCU_DisableDBGStopMode
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:774    .text.HAL_DBGMCU_DisableDBGStopMode:000000000000000c $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:779    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:785    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 HAL_DBGMCU_EnableDBGStandbyMode
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:802    .text.HAL_DBGMCU_EnableDBGStandbyMode:000000000000000c $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:807    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:813    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 HAL_DBGMCU_DisableDBGStandbyMode
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:830    .text.HAL_DBGMCU_DisableDBGStandbyMode:000000000000000c $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:848    .data.uwTickFreq:0000000000000000 uwTickFreq
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:855    .data.uwTickPrio:0000000000000000 uwTickPrio
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:842    .bss.uwTick:0000000000000000 uwTick
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:838    .bss.uwTick:0000000000000000 $d
+C:\Users\vasil\AppData\Local\Temp\ccjKYVLc.s:851    .data.uwTickPrio:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 HAL_SYSTICK_Config

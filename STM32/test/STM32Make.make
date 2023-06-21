@@ -62,6 +62,7 @@ CPP_SOURCES = \
 
 # ASM sources
 ASM_SOURCES =  \
+Core/Startup/startup_stm32f103c6tx.s \
 startup_stm32f103x6.s
 
 
@@ -111,12 +112,14 @@ AS_DEFS =
 
 # C defines
 C_DEFS =  \
+-DDEBUG \
 -DSTM32F103x6 \
 -DUSE_HAL_DRIVER
 
 
 # CXX defines
 CXX_DEFS =  \
+-DDEBUG \
 -DSTM32F103x6 \
 -DUSE_HAL_DRIVER
 
@@ -126,6 +129,10 @@ AS_INCLUDES = \
 
 # C includes
 C_INCLUDES =  \
+-I.cproject/C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Device/ST/STM32F1xx/Include \
+-I.cproject/C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Include \
+-I.cproject/C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc \
+-I.cproject/C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy \
 -IC:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Device/ST/STM32F1xx/Include \
 -IC:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Include \
 -IC:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc \
@@ -147,9 +154,9 @@ CXXFLAGS += -g -gdwarf -ggdb
 endif
 
 # Add additional flags
-CFLAGS += -Wall -fdata-sections -ffunction-sections 
-ASFLAGS += -Wall -fdata-sections -ffunction-sections 
-CXXFLAGS += 
+CFLAGS += 
+ASFLAGS += 
+CXXFLAGS += -feliminate-unused-debug-types 
 
 # Generate dependency information
 CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
@@ -159,7 +166,7 @@ CXXFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
 # LDFLAGS
 #######################################
 # link script
-LDSCRIPT = STM32F103C6Tx_FLASH.ld
+LDSCRIPT = STM32F103C6TX_FLASH.ld
 
 # libraries
 LIBS = -lc -lm -lnosys 
@@ -167,7 +174,7 @@ LIBDIR = \
 
 
 # Additional LD Flags from config file
-ADDITIONALLDFLAGS = -specs=nano.specs 
+ADDITIONALLDFLAGS = -specs=nano.specs -specs=nosys.specs 
 
 LDFLAGS = $(MCU) $(ADDITIONALLDFLAGS) -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 

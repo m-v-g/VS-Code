@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
   30:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   *
   31:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   * Copyright (c) 2016 STMicroelectronics.
   32:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   * All rights reserved.
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 2
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 2
 
 
   33:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
   87:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   */ 
   88:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
   89:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** /* Private variables ---------------------------------------------------------*/
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 3
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 3
 
 
   90:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** /* Private function prototypes -----------------------------------------------*/
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  144:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   * @note   To correctly run this function, the @ref HAL_FLASH_Unlock() function
  145:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   *         must be called before.
  146:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   *         Call the @ref HAL_FLASH_Lock() to disable the flash memory access 
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 4
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 4
 
 
  147:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   *         (recommended to protect the FLASH memory against possible unwanted operation)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  201:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****         
  202:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****         /* Wait for last operation to be completed */
  203:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****         status = FLASH_WaitForLastOperationBank2((uint32_t)FLASH_TIMEOUT_VALUE);
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 5
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 5
 
 
  204:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****         
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  258:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****           {
  259:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****             /* In case of error, stop erase procedure and return the faulty address */
  260:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****             *PageError = address;
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 6
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 6
 
 
  261:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****             break;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  315:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   * @retval HAL_StatusTypeDef HAL Status
  316:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   */
  317:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** HAL_StatusTypeDef HAL_FLASHEx_Erase_IT(FLASH_EraseInitTypeDef *pEraseInit)
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 7
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 7
 
 
  318:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** {
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  372:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   *
  373:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** @verbatim   
  374:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   ==============================================================================
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 8
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 8
 
 
  375:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****                 ##### Option Bytes Programming functions ##### 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  429:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   return status;
  430:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** }
  431:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 9
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 9
 
 
  432:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** /**
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  486:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   }
  487:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  488:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   /* USER configuration */
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 10
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 10
 
 
  489:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   if((pOBInit->OptionType & OPTIONBYTE_USER) == OPTIONBYTE_USER)
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  543:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   *            @arg @ref OB_DATA_ADDRESS_DATA0
  544:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   *            @arg @ref OB_DATA_ADDRESS_DATA1
  545:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   * @retval Value programmed in USER data
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 11
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 11
 
 
  546:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  595:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   /* Check the parameters */
  596:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   assert_param(IS_FLASH_BANK(Banks));
   32              		.loc 1 596 3 view .LVU1
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 12
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 12
 
 
  597:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
   54 0020 00200240 		.word	1073881088
   55              		.cfi_endproc
   56              	.LFE71:
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 13
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 13
 
 
   58              		.section	.text.FLASH_OB_GetWRP,"ax",%progbits
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  677:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** #if defined(OB_WRP_PAGES32TO47MASK)
  678:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   WRP2_Data = (uint16_t)((WriteProtectPage & OB_WRP_PAGES32TO47MASK) >> 16U);
  679:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** #endif /* OB_WRP_PAGES32TO47MASK */
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 14
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 14
 
 
  680:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  734:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** #endif /* FLASH_WRP2_WRP2 */
  735:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  736:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** #if defined(FLASH_WRP3_WRP3)
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 15
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 15
 
 
  737:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****       if((status == HAL_OK) && (WRP3_Data != 0xFFU))
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  791:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** #if defined(OB_WRP_PAGES16TO31MASK)
  792:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   WRP1_Data = (uint16_t)((WriteProtectPage & OB_WRP_PAGES16TO31MASK) >> 8U);
  793:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** #elif defined(OB_WRP_PAGES32TO63MASK)
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 16
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 16
 
 
  794:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   WRP1_Data = (uint16_t)((WriteProtectPage & OB_WRP_PAGES32TO63MASK) >> 8U);
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  848:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  849:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** #if defined(FLASH_WRP2_WRP2)
  850:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****       if((status == HAL_OK) && (WRP2_Data != 0xFFU))
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 17
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 17
 
 
  851:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****       {
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  905:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  906:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****     /* If the erase operation is completed, disable the OPTER Bit */
  907:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****     CLEAR_BIT(FLASH->CR, FLASH_CR_OPTER);
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 18
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 18
 
 
  908:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  962:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** #endif /* FLASH_BANK2_END */
  963:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  964:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****     /* Wait for last operation to be completed */
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 19
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 19
 
 
  965:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****     status = FLASH_WaitForLastOperation((uint32_t)FLASH_TIMEOUT_VALUE);
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
 1019:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** static uint32_t FLASH_OB_GetWRP(void)
 1020:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** {
   66              		.loc 1 1020 1 is_stmt 1 view -0
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 20
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 20
 
 
   67              		.cfi_startproc
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
 1039:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
 1040:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   if (tmp_reg == FLASH_OBR_RDPRT)
  105              		.loc 1 1040 3 is_stmt 1 view .LVU17
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 21
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 21
 
 
  106              		.loc 1 1040 6 is_stmt 0 view .LVU18
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  141 0002 D869     		ldr	r0, [r3, #28]
 1062:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** }
  142              		.loc 1 1062 1 view .LVU26
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 22
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 22
 
 
  143 0004 C0F38200 		ubfx	r0, r0, #2, #3
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  925:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  189              		.loc 1 925 1 is_stmt 0 view .LVU37
  190 000e 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 23
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 23
 
 
  191              	.LVL8:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  231              		.loc 1 917 16 is_stmt 0 view .LVU51
  232 004a 4CF25030 		movw	r0, #50000
  233 004e FFF7FEFF 		bl	FLASH_WaitForLastOperation
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 24
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 24
 
 
  234              	.LVL11:
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  280 0008 FFF7FEFF 		bl	FLASH_WaitForLastOperation
  281              	.LVL15:
  950:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   {     
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 25
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 25
 
 
  282              		.loc 1 950 3 is_stmt 1 view .LVU62
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  326              		.section	.text.FLASH_OB_ProgramData,"ax",%progbits
  327              		.align	1
  328              		.syntax unified
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 26
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 26
 
 
  329              		.thumb
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  371 0014 0022     		movs	r2, #0
  372 0016 DA61     		str	r2, [r3, #28]
 1002:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****     *(__IO uint16_t*)Address = Data;
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 27
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 27
 
 
  373              		.loc 1 1002 5 is_stmt 1 view .LVU87
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  421              		.loc 1 398 3 view .LVU95
  401:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  422              		.loc 1 401 3 view .LVU96
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 28
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 28
 
 
  401:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  419:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  463              		.loc 1 419 5 is_stmt 1 view .LVU111
  464 0034 2369     		ldr	r3, [r4, #16]
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 29
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 29
 
 
  465 0036 23F02003 		bic	r3, r3, #32
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  510              		.loc 1 657 3 view .LVU122
  660:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   
  511              		.loc 1 660 3 view .LVU123
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 30
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 30
 
 
  660:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  549              		.loc 1 701 8 is_stmt 0 view .LVU140
  550 0024 0028     		cmp	r0, #0
  551 0026 F7D1     		bne	.L40
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 31
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 31
 
 
  704:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  597              		.thumb_func
  599              	FLASH_OB_DisableWRP:
  600              	.LVL47:
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 32
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 32
 
 
  601              	.LFB73:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  639              		.loc 1 873 3 is_stmt 1 view .LVU166
  874:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  640              		.loc 1 874 1 is_stmt 0 view .LVU167
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 33
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 33
 
 
  641 0016 10BD     		pop	{r4, pc}
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  835:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****       }
  682              		.loc 1 835 18 is_stmt 0 view .LVU181
  683 004a 4CF25030 		movw	r0, #50000
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 34
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 34
 
 
  684              	.LVL57:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  452:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  731              		.loc 1 452 3 discriminator 2 view .LVU191
  455:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   {
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 35
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 35
 
 
  732              		.loc 1 455 3 discriminator 2 view .LVU192
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  768              		.loc 1 461 16 is_stmt 0 view .LVU210
  769 0030 8068     		ldr	r0, [r0, #8]
  770              	.LVL63:
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 36
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 36
 
 
  461:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****     }
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  809              		.loc 1 515 3 view .LVU226
  810              	.L56:
  516:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 37
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 37
 
 
  811              		.loc 1 516 1 is_stmt 0 view .LVU227
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  848              		.loc 1 495 7 view .LVU244
  849 0076 084B     		ldr	r3, .L73
  850 0078 0022     		movs	r2, #0
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 38
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 38
 
 
  851 007a 1A76     		strb	r2, [r3, #24]
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  890              	.L73:
  891 0098 00000000 		.word	pFlash
  892              		.cfi_endproc
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 39
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 39
 
 
  893              	.LFE68:
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  936 0018 6074     		strb	r0, [r4, #17]
  537:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  937              		.loc 1 537 1 view .LVU273
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 40
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 40
 
 
  938 001a 10BD     		pop	{r4, pc}
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  554:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   }
  982              		.loc 1 554 11 view .LVU286
  983 0014 C0F38720 		ubfx	r0, r0, #10, #8
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 41
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 41
 
 
  984              	.LVL85:
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  1011              		.loc 1 1090 20 is_stmt 0 view .LVU290
  1012 0000 064B     		ldr	r3, .L84
  1013 0002 0022     		movs	r2, #0
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 42
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 42
 
 
  1014 0004 DA61     		str	r2, [r3, #28]
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  1049              		@ frame_needed = 0, uses_anonymous_args = 0
  159:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   uint32_t address = 0U;
  1050              		.loc 1 159 3 view .LVU296
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 43
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 43
 
 
  160:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  1089 0022 90BB     		cbnz	r0, .L95
  274:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****         
  1090              		.loc 1 274 9 is_stmt 1 view .LVU313
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 44
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 44
 
 
  274:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****         
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  279:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****         {
  1130              		.loc 1 279 21 is_stmt 1 view .LVU329
  1131 0056 04F58064 		add	r4, r4, #1024
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 45
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 45
 
 
  1132              	.LVL94:
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  1173 0088 00E0     		b	.L89
  1174              	.LVL102:
  1175              	.L95:
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 46
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 46
 
 
  159:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   uint32_t address = 0U;
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  318:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****   HAL_StatusTypeDef status = HAL_OK;
  1223              		.loc 1 318 1 is_stmt 1 view -0
  1224              		.cfi_startproc
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 47
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 47
 
 
  1225              		@ args = 0, pretend = 0, frame = 0
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  353:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  1264              		.loc 1 353 5 view .LVU368
  355:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c ****     pFlash.DataRemaining = pEraseInit->NbPages;
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 48
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 48
 
 
  1265              		.loc 1 355 5 view .LVU369
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  1305              	.L108:
  322:C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Src\stm32f1xx_hal_flash_ex.c **** 
  1306              		.loc 1 322 3 view .LVU384
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 49
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 49
 
 
  1307 004e 0224     		movs	r4, #2
@@ -2903,58 +2903,58 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 1
  1326              		.file 5 "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/I
  1327              		.file 6 "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/I
  1328              		.file 7 "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/I
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s 			page 50
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s 			page 50
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f1xx_hal_flash_ex.c
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:18     .text.FLASH_MassErase:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:23     .text.FLASH_MassErase:0000000000000000 FLASH_MassErase
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:53     .text.FLASH_MassErase:000000000000001c $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:59     .text.FLASH_OB_GetWRP:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:64     .text.FLASH_OB_GetWRP:0000000000000000 FLASH_OB_GetWRP
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:80     .text.FLASH_OB_GetWRP:0000000000000008 $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:85     .text.FLASH_OB_GetRDP:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:90     .text.FLASH_OB_GetRDP:0000000000000000 FLASH_OB_GetRDP
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:121    .text.FLASH_OB_GetRDP:0000000000000014 $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:126    .text.FLASH_OB_GetUser:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:131    .text.FLASH_OB_GetUser:0000000000000000 FLASH_OB_GetUser
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:148    .text.FLASH_OB_GetUser:000000000000000c $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:153    .text.FLASH_OB_RDP_LevelConfig:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:158    .text.FLASH_OB_RDP_LevelConfig:0000000000000000 FLASH_OB_RDP_LevelConfig
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:243    .text.FLASH_OB_RDP_LevelConfig:000000000000005c $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:250    .text.FLASH_OB_UserConfig:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:255    .text.FLASH_OB_UserConfig:0000000000000000 FLASH_OB_UserConfig
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:320    .text.FLASH_OB_UserConfig:000000000000003c $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:327    .text.FLASH_OB_ProgramData:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:332    .text.FLASH_OB_ProgramData:0000000000000000 FLASH_OB_ProgramData
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:395    .text.FLASH_OB_ProgramData:0000000000000038 $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:401    .text.HAL_FLASHEx_OBErase:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:407    .text.HAL_FLASHEx_OBErase:0000000000000000 HAL_FLASHEx_OBErase
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:483    .text.HAL_FLASHEx_OBErase:0000000000000048 $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:489    .text.FLASH_OB_EnableWRP:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:494    .text.FLASH_OB_EnableWRP:0000000000000000 FLASH_OB_EnableWRP
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:587    .text.FLASH_OB_EnableWRP:0000000000000058 $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:594    .text.FLASH_OB_DisableWRP:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:599    .text.FLASH_OB_DisableWRP:0000000000000000 FLASH_OB_DisableWRP
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:693    .text.FLASH_OB_DisableWRP:0000000000000054 $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:700    .text.HAL_FLASHEx_OBProgram:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:706    .text.HAL_FLASHEx_OBProgram:0000000000000000 HAL_FLASHEx_OBProgram
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:891    .text.HAL_FLASHEx_OBProgram:0000000000000098 $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:896    .text.HAL_FLASHEx_OBGetConfig:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:902    .text.HAL_FLASHEx_OBGetConfig:0000000000000000 HAL_FLASHEx_OBGetConfig
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:944    .text.HAL_FLASHEx_OBGetUserData:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:950    .text.HAL_FLASHEx_OBGetUserData:0000000000000000 HAL_FLASHEx_OBGetUserData
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:990    .text.HAL_FLASHEx_OBGetUserData:000000000000001c $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:996    .text.FLASH_PageErase:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:1002   .text.FLASH_PageErase:0000000000000000 FLASH_PageErase
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:1031   .text.FLASH_PageErase:000000000000001c $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:1037   .text.HAL_FLASHEx_Erase:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:1043   .text.HAL_FLASHEx_Erase:0000000000000000 HAL_FLASHEx_Erase
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:1208   .text.HAL_FLASHEx_Erase:000000000000009c $d
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:1214   .text.HAL_FLASHEx_Erase_IT:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:1220   .text.HAL_FLASHEx_Erase_IT:0000000000000000 HAL_FLASHEx_Erase_IT
-C:\Users\vasil\AppData\Local\Temp\ccxU8uPc.s:1316   .text.HAL_FLASHEx_Erase_IT:0000000000000058 $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:18     .text.FLASH_MassErase:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:23     .text.FLASH_MassErase:0000000000000000 FLASH_MassErase
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:53     .text.FLASH_MassErase:000000000000001c $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:59     .text.FLASH_OB_GetWRP:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:64     .text.FLASH_OB_GetWRP:0000000000000000 FLASH_OB_GetWRP
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:80     .text.FLASH_OB_GetWRP:0000000000000008 $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:85     .text.FLASH_OB_GetRDP:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:90     .text.FLASH_OB_GetRDP:0000000000000000 FLASH_OB_GetRDP
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:121    .text.FLASH_OB_GetRDP:0000000000000014 $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:126    .text.FLASH_OB_GetUser:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:131    .text.FLASH_OB_GetUser:0000000000000000 FLASH_OB_GetUser
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:148    .text.FLASH_OB_GetUser:000000000000000c $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:153    .text.FLASH_OB_RDP_LevelConfig:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:158    .text.FLASH_OB_RDP_LevelConfig:0000000000000000 FLASH_OB_RDP_LevelConfig
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:243    .text.FLASH_OB_RDP_LevelConfig:000000000000005c $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:250    .text.FLASH_OB_UserConfig:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:255    .text.FLASH_OB_UserConfig:0000000000000000 FLASH_OB_UserConfig
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:320    .text.FLASH_OB_UserConfig:000000000000003c $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:327    .text.FLASH_OB_ProgramData:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:332    .text.FLASH_OB_ProgramData:0000000000000000 FLASH_OB_ProgramData
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:395    .text.FLASH_OB_ProgramData:0000000000000038 $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:401    .text.HAL_FLASHEx_OBErase:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:407    .text.HAL_FLASHEx_OBErase:0000000000000000 HAL_FLASHEx_OBErase
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:483    .text.HAL_FLASHEx_OBErase:0000000000000048 $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:489    .text.FLASH_OB_EnableWRP:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:494    .text.FLASH_OB_EnableWRP:0000000000000000 FLASH_OB_EnableWRP
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:587    .text.FLASH_OB_EnableWRP:0000000000000058 $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:594    .text.FLASH_OB_DisableWRP:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:599    .text.FLASH_OB_DisableWRP:0000000000000000 FLASH_OB_DisableWRP
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:693    .text.FLASH_OB_DisableWRP:0000000000000054 $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:700    .text.HAL_FLASHEx_OBProgram:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:706    .text.HAL_FLASHEx_OBProgram:0000000000000000 HAL_FLASHEx_OBProgram
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:891    .text.HAL_FLASHEx_OBProgram:0000000000000098 $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:896    .text.HAL_FLASHEx_OBGetConfig:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:902    .text.HAL_FLASHEx_OBGetConfig:0000000000000000 HAL_FLASHEx_OBGetConfig
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:944    .text.HAL_FLASHEx_OBGetUserData:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:950    .text.HAL_FLASHEx_OBGetUserData:0000000000000000 HAL_FLASHEx_OBGetUserData
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:990    .text.HAL_FLASHEx_OBGetUserData:000000000000001c $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:996    .text.FLASH_PageErase:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:1002   .text.FLASH_PageErase:0000000000000000 FLASH_PageErase
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:1031   .text.FLASH_PageErase:000000000000001c $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:1037   .text.HAL_FLASHEx_Erase:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:1043   .text.HAL_FLASHEx_Erase:0000000000000000 HAL_FLASHEx_Erase
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:1208   .text.HAL_FLASHEx_Erase:000000000000009c $d
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:1214   .text.HAL_FLASHEx_Erase_IT:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:1220   .text.HAL_FLASHEx_Erase_IT:0000000000000000 HAL_FLASHEx_Erase_IT
+C:\Users\vasil\AppData\Local\Temp\ccBb4z80.s:1316   .text.HAL_FLASHEx_Erase_IT:0000000000000058 $d
 
 UNDEFINED SYMBOLS
 pFlash

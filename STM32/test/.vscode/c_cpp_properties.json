@@ -3,6 +3,10 @@
     {
       "name": "STM32",
       "includePath": [
+        ".cproject/C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        ".cproject/C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Include",
+        ".cproject/C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc",
+        ".cproject/C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
         "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
         "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/CMSIS/Include",
         "C:/Users/vasil/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Drivers/STM32F1xx_HAL_Driver/Inc",
@@ -10,6 +14,7 @@
         "Core/Inc"
       ],
       "defines": [
+        "DEBUG",
         "STM32F103x6",
         "USE_HAL_DRIVER"
       ],

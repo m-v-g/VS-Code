@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s 			page 1
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s 			page 1
   29:Core/Src/sysmem.c ****  */
   30:Core/Src/sysmem.c **** static uint8_t *__sbrk_heap_end = NULL;
   31:Core/Src/sysmem.c **** 
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s 			page 2
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s 			page 2
 
 
   32:Core/Src/sysmem.c **** /**
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s 			page 1
   50 0008 0D48     		ldr	r0, .L8+8
   51              	.LVL2:
   52              		.loc 1 63 12 view .LVU11
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s 			page 3
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s 			page 3
 
 
   53 000a 0068     		ldr	r0, [r0]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s 			page 1
   88              		.loc 1 71 5 is_stmt 1 view .LVU23
   89 0028 FFF7FEFF 		bl	__errno
   90              	.LVL8:
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s 			page 4
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s 			page 4
 
 
   71:Core/Src/sysmem.c ****     return (void *)-1;
@@ -211,16 +211,16 @@ ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s 			page 1
  118              		.file 3 "c:\\users\\vasil\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  119              		.file 4 "c:\\users\\vasil\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  120              		.file 5 "c:\\users\\vasil\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
-ARM GAS  C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s 			page 5
+ARM GAS  C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 sysmem.c
-C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s:18     .text._sbrk:0000000000000000 $t
-C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s:24     .text._sbrk:0000000000000000 _sbrk
-C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s:101    .text._sbrk:0000000000000038 $d
-C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s:109    .bss.__sbrk_heap_end:0000000000000000 $d
-C:\Users\vasil\AppData\Local\Temp\cc3hsFBH.s:113    .bss.__sbrk_heap_end:0000000000000000 __sbrk_heap_end
+C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s:18     .text._sbrk:0000000000000000 $t
+C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s:24     .text._sbrk:0000000000000000 _sbrk
+C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s:101    .text._sbrk:0000000000000038 $d
+C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s:109    .bss.__sbrk_heap_end:0000000000000000 $d
+C:\Users\vasil\AppData\Local\Temp\ccZ82PtD.s:113    .bss.__sbrk_heap_end:0000000000000000 __sbrk_heap_end
 
 UNDEFINED SYMBOLS
 __errno
