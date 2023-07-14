@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SS_GSMD_rev2.2_09.07.2023",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SS_GSMD_rev2.2_09.07.2023::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SS_GSMD_rev2.2_09.07.2023-Debug-7fc6b22fda803432c376.json",
+					"name" : "SS_GSMD_rev2.2_09.07.2023",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Workspace/VS-Code/STM32/SS_GSMD_rev2.2_09.07.2023/build/debug/build",
+		"source" : "D:/Workspace/VS-Code/STM32/SS_GSMD_rev2.2_09.07.2023"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

@@ -1,0 +1,23 @@
+# ninja log v5
+51	218	7110091256271816	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Core/Startup/startup_stm32f103c6tx.s.obj	89d967ac70def329
+28	271	7110091256801491	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Core/Src/sysmem.c.obj	754ca67a5700f08
+19	340	7110091257451094	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Core/Src/syscalls.c.obj	3fbf8f344d6b702
+117	1176	7110091265582218	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj	4e4b11de3a24d847
+10	1221	7110091265951985	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Core/Src/stm32f1xx_hal_msp.c.obj	dd12793e28faa658
+82	1237	7110091266116977	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	765f38ab069782d2
+219	1255	7110091266256890	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj	c53e346f96ef677e
+39	1274	7110091266551798	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Core/Src/stm32f1xx_it.c.obj	9c109f52e3a2947f
+0	1280	7110091266611760	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Core/Src/main.c.obj	3679e2d76f764cbb
+155	1304	7110091266651742	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj	d3b2770648dd7b32
+106	1317	7110091266861605	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj	ddcb8c18a9aa839
+94	1330	7110091267186498	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj	fef4fc34107cddef
+71	1335	7110091267271542	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Core/Src/system_stm32f1xx.c.obj	f7dd483c0b4ec37e
+166	1345	7110091267521392	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj	5c3b5986e8cced96
+274	1346	7110091267451440	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj	1e81e122410da76a
+129	1364	7110091267751272	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj	642d80afcadc2c3
+61	1367	7110091267771235	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj	8160e11dd0a6776
+142	1373	7110091267841191	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj	e1161423eb4cbd1
+192	1434	7110091268440823	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj	ca10284ddfde785b
+341	1488	7110091268990505	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj	4488e9c18475838d
+177	1622	7110091270329685	CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj	4d22e63e537b3484
+1622	1990	7110091272893165	SS_GSMD_rev2.2_09.07.2023.elf	6138cfcb5246d9e0

@@ -1,0 +1,3 @@
+D:/Workspace/VS-Code/STM32/SS_GSMD_rev2.2_09.07.2023/build/debug/build/CMakeFiles/SS_GSMD_rev2.2_09.07.2023.dir
+D:/Workspace/VS-Code/STM32/SS_GSMD_rev2.2_09.07.2023/build/debug/build/CMakeFiles/edit_cache.dir
+D:/Workspace/VS-Code/STM32/SS_GSMD_rev2.2_09.07.2023/build/debug/build/CMakeFiles/rebuild_cache.dir
