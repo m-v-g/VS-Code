@@ -1,0 +1,12 @@
+../Core/Src/gsm.c:30:6:replac_string	16	static
+../Core/Src/gsm.c:43:6:set_comand	200	static
+../Core/Src/gsm.c:163:6:balance	24	static
+../Core/Src/gsm.c:169:6:disable_connection	16	static
+../Core/Src/gsm.c:175:6:call	40	static
+../Core/Src/gsm.c:181:6:incoming_call	16	static
+../Core/Src/gsm.c:187:6:get_date_time	24	static
+../Core/Src/gsm.c:193:6:get_contact	96	static
+../Core/Src/gsm.c:246:6:alarm	40	static
+../Core/Src/gsm.c:268:6:sms	56	static
+../Core/Src/gsm.c:301:6:welcome	8	static
+../Core/Src/gsm.c:330:6:starting	8	static

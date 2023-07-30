@@ -49,5 +49,7 @@ void set_comand(char *buff);
 void get_contact(void);
 void alarm(void);
 void sms(int);
+void welcome(void);
+void starting(void);
 
 #endif /* GSM_H_ */

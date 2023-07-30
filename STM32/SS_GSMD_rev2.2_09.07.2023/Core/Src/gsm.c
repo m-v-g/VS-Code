@@ -37,6 +37,8 @@ void replac_string(char *src)
 	}
 }
 
+
+
 ///////////////////////// Функция для отправки настроечных команд, в цикле лучше не использовать ////////////////////////////
 void set_comand(char *buff)
 {
@@ -296,6 +298,67 @@ else if (i == 4) {
 	LCD_print("              ", 0, 2);
 }
 
+void welcome(void)
+{
+	// в Кубе настроить 5 пинов как Output, например PA3 - PA7 (можно переименовать их в соответствии с назначением)
+  // и прописать в функции ниже - ПОРТ, П�?Н. Подключать в соответствии с названиями контактов экрана.
+  LCD_setRST(GPIOB, RST_Pin);
+  LCD_setCE(GPIOB, CE_Pin);
+  LCD_setDC(GPIOB, DC_Pin);
+  LCD_setDIN(GPIOB, DIN_Pin);
+  LCD_setCLK(GPIOB, CLK_Pin);
+
+  LCD_init();
+
+  //uint16_t i = 0;
+  HAL_GPIO_WritePin(ERR_LED_GPIO_Port, ERR_LED_Pin, GPIO_PIN_SET);
+  LCD_print("LABIRINT", 18, 2);
+  LCD_print("ELECTRIC", 18, 3);
+  LCD_print("GSMD_MINI_v1.2", 0, 5);
+  HAL_Delay(2000);
+  LCD_clrScr(); // очистить экран
+  LCD_print("LABIRINT", 18, 0);
+  LCD_print("ELECTRIC", 18, 1);
+  LCD_invertText(true);
+  LCD_print("   starting   ", 0, 2);
+  HAL_Delay(500);
+  LCD_print("   power on   ", 0, 2);
+  HAL_GPIO_WritePin(GSM_RESET_GPIO_Port, GSM_RESET_Pin, GPIO_PIN_SET);
+  HAL_Delay(30000); // задержка чтоб модем успел раздуплиться, если его включение происходит вместе с включением МК
+}
+
+void starting(void)
+{
+	chek_speed(); // проверка и установка скорости 19200, нужна один раз
+  LCD_print(" speed  check ", 0, 2);
+  HAL_Delay(500);
+  ////////////////// настройка модема ///////////////////
+  LCD_print(" status check ", 0, 2);
+  HAL_Delay(500);
+  set_comand(ATCPAS);  // проверка статуса модема
+  LCD_print("registr  check", 0, 2);
+  HAL_Delay(500);
+  set_comand(ATCREG);  // проверка регистрации в сети - должен вернуть  +CREG: 0,1
+  LCD_print("   loading    ", 0, 2);
+  HAL_Delay(500);
+  set_comand(ATCLIP1); // включить АОН
+  set_comand(ATE);     // отключить «эхо»
+  set_comand(ATS);     // поднимать трубку только "вручную"
+  set_comand(ATDDET);  // включить DTMF
+  //set_comand(ATCCLKK); // установить дату/время
+
+  /////////////////// настройки для работы с sms ////////////////
+  set_comand(ATCMGF);    // устанавливает текстовый режим смс-сообщения
+  set_comand(ATCPBS);    // открывает доступ к данным телефонной книги SIM-карты
+  set_comand(ATCSCS);    // кодировка текста - GSM
+  set_comand(ATCNMI);    // настройка вывода смс в консоль
+
+  //////////////////// различная инфа /////////////////////
+  set_comand(ATIPR);       // скорость usart'a модема
+  set_comand(ATI);         // название и версия модуля
+  set_comand(ATCGSN);      // считывание IMEI из EEPROM
+  set_comand(ATCSPN);      // оператор сети
 
 
-
+  get_contact();
+}
