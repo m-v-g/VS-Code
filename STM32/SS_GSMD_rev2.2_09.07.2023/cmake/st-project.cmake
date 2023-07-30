@@ -64,12 +64,15 @@ target_link_options(
 
 target_sources(
     ${TARGET_NAME} PRIVATE
+    "Core\\Src\\gsm.c"
     "Core\\Src\\main.c"
+    "Core\\Src\\nokia5110_LCD.c"
     "Core\\Src\\stm32f1xx_hal_msp.c"
     "Core\\Src\\stm32f1xx_it.c"
     "Core\\Src\\syscalls.c"
     "Core\\Src\\sysmem.c"
     "Core\\Src\\system_stm32f1xx.c"
+    "Core\\Src\\usart_ring.c"
     "Core\\Startup\\startup_stm32f103c6tx.s"
     "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c"
     "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c"

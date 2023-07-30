@@ -22,6 +22,7 @@
 #include "stm32f1xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "usart_ring.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -41,7 +42,16 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
+/////////////////// GSM USART ////////////////////
+extern volatile gsm_rx_buffer_index_t gsm_rx_buffer_head;
+extern volatile gsm_rx_buffer_index_t gsm_rx_buffer_tail;
+extern unsigned char gsm_rx_buffer[GSM_RX_BUFFER_SIZE];
 
+/////////////////// DEBUG USART //////////////////// можно удалить после отладки всего
+extern volatile dbg_rx_buffer_index_t dbg_rx_buffer_head;
+extern volatile dbg_rx_buffer_index_t dbg_rx_buffer_tail;
+extern unsigned char dbg_rx_buffer[DBG_RX_BUFFER_SIZE];
+extern  uint8_t flag_alarm;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -205,7 +215,19 @@ void SysTick_Handler(void)
 void USART1_IRQHandler(void)
 {
   /* USER CODE BEGIN USART1_IRQn 0 */
+  if(((huart1.Instance->SR & USART_SR_RXNE) != RESET) && ((huart1.Instance->CR1 & USART_CR1_RXNEIE) != RESET))
+	{
+		uint8_t rbyte = (uint8_t)(huart1.Instance->DR & (uint8_t)0x00FF); // читает байт из регистра
+		gsm_rx_buffer_index_t i = (uint16_t)(gsm_rx_buffer_head + 1) % GSM_RX_BUFFER_SIZE;
 
+		if(i != gsm_rx_buffer_tail)
+		{
+			gsm_rx_buffer[gsm_rx_buffer_head] = rbyte;
+			gsm_rx_buffer_head = i;
+		}
+	}
+
+	return;
   /* USER CODE END USART1_IRQn 0 */
   HAL_UART_IRQHandler(&huart1);
   /* USER CODE BEGIN USART1_IRQn 1 */
@@ -219,7 +241,19 @@ void USART1_IRQHandler(void)
 void USART2_IRQHandler(void)
 {
   /* USER CODE BEGIN USART2_IRQn 0 */
+  if(((huart2.Instance->SR & USART_SR_RXNE) != RESET) && ((huart2.Instance->CR1 & USART_CR1_RXNEIE) != RESET))
+	{
+		uint8_t rbyte = (uint8_t)(huart2.Instance->DR & (uint8_t)0x00FF); // читает байт из регистра
+		dbg_rx_buffer_index_t i = (uint16_t)(dbg_rx_buffer_head + 1) % DBG_RX_BUFFER_SIZE;
 
+		if(i != dbg_rx_buffer_tail)
+		{
+			dbg_rx_buffer[dbg_rx_buffer_head] = rbyte;
+			dbg_rx_buffer_head = i;
+		}
+	}
+
+	return
   /* USER CODE END USART2_IRQn 0 */
   HAL_UART_IRQHandler(&huart2);
   /* USER CODE BEGIN USART2_IRQn 1 */
