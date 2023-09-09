@@ -435,7 +435,7 @@ int main(void)
 			HAL_UART_Transmit(GSM, (uint8_t*)str, strlen(str), 1000);
     }
     /* USER CODE END WHILE */
-    
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
