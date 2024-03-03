@@ -15,6 +15,6 @@ int main(void)
         PORTB &= ~(_BV(PB5)); // turns PIN PB2 low (logic zero)
         _delay_ms(1000); // waits 1000 milliseconds
     }
-
+    
     return 0;
 }

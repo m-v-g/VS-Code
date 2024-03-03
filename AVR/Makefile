@@ -1,6 +1,5 @@
 FILENAME   = main
 MCU        = atmega8
-F_CPU      = 4000000UL
 PROGRAMMER = STK500
 PORT       = COM13
 
